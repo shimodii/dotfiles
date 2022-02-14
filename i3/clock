@@ -1,0 +1,5 @@
+#!/bin/bash
+
+B="🕚"
+D=$(date | awk '{print $4}' | rev | cut -c4- | rev)
+echo $B$D
