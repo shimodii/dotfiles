@@ -70,6 +70,9 @@ let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 :inoremap        [  []<Left>
 :inoremap        {  {}<Left>
 
+:nmap <c-s> :w<CR>
+:imap <c-s> <Esc>:w<CR>a
+
 
 :autocmd FileType c,cpp,java,scala let b:comment_leader = '// '
 :autocmd FileType sh,ruby,python   let b:comment_leader = '# '
