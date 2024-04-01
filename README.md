@@ -14,3 +14,6 @@ just copy everything from i3 directory from repository to $HOME/.config/i3
 
 ### i3blocks
 just copy everything from i3blocks directory from repository to $HOME/.config/i3blocks
+
+### rofi
+just copy everything from rofi directory from repository to $HOME/.config/rofi
