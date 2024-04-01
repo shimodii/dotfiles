@@ -1,29 +1,16 @@
 # Dotfiles
-my config files
+Just my dotfiles for i3, i3blocks, vim and neovim
 
-# VIM
-do these steps:
+# How to USE:
 
-	0: git clone https://github.com/am-shm/dotfiles.git
-	1: cd dotfiles
-	2: cp -r vim/vim ~/.vim
-	3: cp vim/vimrc ~/.vimrc 
-	4: open vim and type :PluginInstall and wait till plugins setup
-	5: star the repository T_T
+### vim
+just copy everything from vim directory from repository to $HOME
 
-# I3
-do these steps:
-	
-	0: git clone https://github.com/am-shm/dotfiles.git
-	1: cd dotfiles
-	2: cp config ~/.config/i3 
-	3: copy executables file to $PATH [like /usr/local/bin/]
+### nvim
+just copy everything from neovim directory from repository to $HOME/.config/nvim
 
-# QUTEBROWSER
-just :
-	
-	0: git clone https://github.com/am-shm/dotfiles.git
-	1: cd dotfiles
-	2: mv ~/.config/qutebrowser/config.py ~/.config/qutebrowser/config.py.old
-	2: cp ./qutebrowser/config.py ~/.config/qutebrowser/config.py
-	3: restart qutebrowser
+### i3
+just copy everything from i3 directory from repository to $HOME/.config/i3
+
+### i3blocks
+just copy everything from i3blocks directory from repository to $HOME/.config/i3blocks
