@@ -20,3 +20,6 @@ just copy everything from rofi directory from repository to $HOME/.config/rofi
 
 ### termite
 just copy everything from termite directory from repository to $HOME/.config/termite
+
+### scripts
+just copy whatever you want to use from script directory to /etc/profile.d to start automatically at startup
