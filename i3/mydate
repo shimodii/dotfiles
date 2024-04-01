@@ -1,5 +1,0 @@
-#!/bin/bash
-
-printf "📆"
-DATE=$(jdate | awk '{print $3"/"$2"/"$6}')
-echo "$E_$DATE"
