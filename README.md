@@ -17,3 +17,6 @@ just copy everything from i3blocks directory from repository to $HOME/.config/i3
 
 ### rofi
 just copy everything from rofi directory from repository to $HOME/.config/rofi
+
+### termite
+just copy everything from termite directory from repository to $HOME/.config/termite
