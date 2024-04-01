@@ -1,0 +1,17 @@
+[term]
+command=echo 
+LABEL=
+
+[calendar]
+command=~/.config/i3blocks/scripts/calendar
+interval=1
+LABEL=  
+DATEFMT=+%H:%M:%S
+# SHORTFMT=+%H:%M:%S
+HEIGHT=180
+WIDTH=220
+
+[battery2]
+command=~/.config/i3blocks/scripts/battery2
+markup=pango
+interval=30
