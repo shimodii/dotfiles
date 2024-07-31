@@ -40,7 +40,7 @@ floating_modifier Mod1
 #exec "polybar"
 
 # start a terminal
-bindsym Mod4+Return exec --no-startup-id termite
+bindsym Mod4+Return exec --no-startup-id alacritty 
 
 # nm-applet
 exec nm-applet
