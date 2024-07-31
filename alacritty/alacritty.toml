@@ -1,0 +1,7 @@
+import = ["/home/amirmohammad/.config/alacritty/dracula.toml"]
+
+[font]
+normal = {family = "Iosevka Nerd Font", style = "Regular"}
+
+[window]
+padding = {x=10,y=10}
