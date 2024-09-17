@@ -39,6 +39,9 @@ floating_modifier Mod1
 # BAR
 #exec "polybar"
 
+# firefox shortcut
+bindsym Mod4+p exec "firefox"
+
 # start a terminal
 bindsym Mod4+Return exec --no-startup-id alacritty 
 
