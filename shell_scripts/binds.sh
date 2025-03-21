@@ -1,5 +1,11 @@
 #!/bin/zsh
 
+function install(){
+    choise=$(pacman -Slq | fzf)
+    if [[ $? == "0" ]]; then
+        sudo pacman -S $choise
+    fi
+}
 
 function fh(){
     history | fzf
