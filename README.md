@@ -3,6 +3,10 @@ Just my dotfiles for i3, i3blocks, vim and neovim
 
 # How to USE:
 
+### shell_scripts
+just include the files in the shell_scripts in your shell config file
+> like this: ``` source "path of script" ```
+
 ### vim
 just copy everything from vim directory from repository to $HOME
 
