@@ -1,0 +1,5 @@
+#!/bin/bash
+
+price=$(curl -s -X GET "https://api.coinpaprika.com/v1/tickers/btc-bitcoin" | jq '.["quotes"].["USD"].["price"]' | awk -F. '{print $1}')
+
+echo "   $price"
