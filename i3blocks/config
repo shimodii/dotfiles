@@ -1,13 +1,8 @@
-[term]
-command=echo 
-LABEL=
-
 [calendar]
 command=~/.config/i3blocks/scripts/calendar
-interval=1
+interval=60
 LABEL=  
-DATEFMT=+%H:%M:%S
-# SHORTFMT=+%H:%M:%S
+DATEFMT=+%H:%M
 HEIGHT=180
 WIDTH=220
 
@@ -15,3 +10,12 @@ WIDTH=220
 command=~/.config/i3blocks/scripts/battery2
 markup=pango
 interval=30
+
+[btc-price]
+command=~/.config/i3blocks/scripts/btc-price
+LABEL=
+interval=60
+
+[kbl]
+command=~/.config/i3blocks/scripts/kbl
+interval=1
