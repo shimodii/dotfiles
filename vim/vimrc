@@ -1,0 +1,55 @@
+" Plugins
+call plug#begin()
+
+
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'tpope/vim-commentary', 
+Plug 'junegunn/fzf.vim',
+Plug 'catppuccin/vim', { 'as': 'catppuccin' }
+
+
+call plug#end()
+
+
+" configurations
+syntax on
+" colorscheme slate
+colorscheme catppuccin_mocha
+
+set nu
+set rnu
+
+set ts=4
+set sw=4
+set smarttab
+
+set autoindent
+set smartindent
+
+let mapleader=' '
+
+" signs
+inoremap ( ()<Left>
+inoremap [ []<Left>
+inoremap { {}<Left>
+inoremap < <><Left>
+inoremap " ""<Left>
+inoremap ' ''<Left>
+
+" files saving
+noremap <silent> <leader>w :w<CR>
+noremap <silent> <leader>q :q!<CR>
+noremap <silent> <leader>wq :wq<CR>
+
+noremap <silent> <leader>t :terminal<CR>
+
+" Golang binds
+noremap <silent> <leader>gf :GoFmt<CR>
+noremap <silent> <leader>gr :GoRun<CR>
+noremap <silent> <leader>gb :GoBuild<CR>
+
+" Find files and grep
+noremap <silent> <leader>ff :Files<CR>
+noremap <silent> <leader>fg :Rg<CR>
+
+inore ii <Esc>
