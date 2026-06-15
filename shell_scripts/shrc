@@ -1,0 +1,36 @@
+# all custom shell run commands
+# functions
+unction install(){
+    choise=$(pacman -Slq | fzf)
+    if [[ $? == 0 ]]; then
+       sudo pacman -S $choise
+    fi
+}
+
+function files(){
+    file=$(fzf --preview 'bat --style=numbers --color=always {}')
+    if [[ $? == 0 ]]; then
+        code $file
+    fi
+}
+
+# docker
+alias dl="sudo docker ps --format \"table {{.ID}}\t{{.Names}}\t{{.Status}}\t{{.Ports}}\""
+alias ds="sudo docker ps --format \"table {{.ID}}\t{{.Names}}\t{{.Status}}\t{{.Ports}}\""
+alias dla="dl -a"
+
+# tmux
+alias tl="tmux ls"
+alias ta="tmux a -t"
+
+# network manager
+alias nr="nmcli device wifi rescan"
+alias nl="nmcli device wifi list"
+alias nc="nmcli device wifi connect"
+
+# VARS
+export PATH="$PATH:/home/amirmohammad/.local/bin/"
+
+# copy and paste
+alias wlc="wl-copy"
+alias wlp="wl-paste"
