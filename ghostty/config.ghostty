@@ -1,0 +1,12 @@
+# Font
+font-family = Iosevka Nerd Font
+font-size = 20
+
+# Padding
+window-padding-x = 25
+window-padding-y = 25
+window-padding-balance = true
+
+# window decoration
+window-decoration = false
+gtk-titlebar = false
